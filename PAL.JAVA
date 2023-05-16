@@ -19,6 +19,11 @@ class PAL {
                 path.remove(path.size() - 1);
             }
         }
+        public static list <list<string >> partition (String s){
+            partitionHelper(0,s,path,res)=new ArrayList< >();
+            return res;
+        }
+    Static void partitionHelper (int index, String s, list<String> path List <lsit<list <string >>r)
     }
 
     static boolean isPalindrome(String s, int start, int end) {
