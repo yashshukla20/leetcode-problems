@@ -1,10 +1,10 @@
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 
-public class treeDemo {
+public class treeDemo2 {
     JFrame f;
 
-    treeDemo() {
+    treeDemo2() {
         f = new JFrame();
         DefaultMutableTreeNode root = new DefaultMutableTreeNode("Root");
         DefaultMutableTreeNode left = new DefaultMutableTreeNode("Left");
@@ -18,6 +18,6 @@ public class treeDemo {
     }
 
     public static void main(String[] args) {
-        new treeDemo();
+        new treeDemo2();
     }
 }
